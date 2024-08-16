@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: santa-app-service
+  labels:
+    app: santa
+spec:
+  selector:
+    app: santa
+  ports:
+  - protocol: TCP
+    port: 8080
+    targetPort: 8080
+  type: ClusterIP
