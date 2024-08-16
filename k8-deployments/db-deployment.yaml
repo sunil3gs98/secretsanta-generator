@@ -2,6 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: santa-db
+  namespace: sunil3gs98
   labels:
     app: santa-db
 spec:
