@@ -5,6 +5,10 @@ metadata:
   namespace: sunil3gs98
   labels:
     app: santa
+  annotations:
+    prometheus.io/scrape: "true"        # Enable scraping
+    prometheus.io/path: "/actuator/prometheus"  # Metrics path
+    prometheus.io/port: "8080"          # Port where metrics are exposed
 spec:
   selector:
     app: santa
