@@ -1,7 +1,7 @@
 version: '3.8'
 services:
   app:
-    image: sunil3gs98/secretesanta-generator:v1.0.0
+    image: sunil3gs98/secretesanta-generator:v1.1.0
     ports:
       - "8080:8080"
     container_name: santa
