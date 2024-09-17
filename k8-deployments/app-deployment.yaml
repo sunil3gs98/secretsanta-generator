@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: santa
-        image: sunil3gs98/secretesanta-generator:v1.0.0
+        image: secretesanta-generator:v1.1.0
         ports:
         - containerPort: 8080
         env:
