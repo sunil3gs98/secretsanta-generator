@@ -15,6 +15,7 @@ spec:
     metadata:
       labels:
         app: santa-db
+        version: blue
     spec:
       containers:
       - name: mysql
