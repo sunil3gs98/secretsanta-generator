@@ -15,10 +15,11 @@ spec:
     metadata:
       labels:
         app: santa
+        version: blue
     spec:
       containers:
       - name: santa
-        image: secretesanta-generator:v1.1.0
+        image: secretesanta-generator:v1.0.0
         ports:
         - containerPort: 8080
         env:
