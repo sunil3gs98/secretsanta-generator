@@ -8,6 +8,7 @@ metadata:
 spec:
   selector:
     app: santa-db
+    version: blue
   ports:
   - protocol: TCP
     port: 3306
